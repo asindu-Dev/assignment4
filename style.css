@@ -1,9 +1,82 @@
 .html,body{
     margin: 0px;
+    width: 1280px;
+    
     
 }
-.box{
+
+.grid{
+    display: grid;
+    grid-template-rows: 108px 1100px 253px;
+    width: 1280px;
+}
+.area{
     background-color: green;
-    margin: 2px;
-    border: solid black 1px;
+    
+    
+}
+
+.area1{
+    background-color: #DB8C33;
+}
+
+.area2{
+    background-color: white;
+}
+.area3{
+    background-color: #D9D9D9;
+}
+
+.img1{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 28px;
+    left: 45px;
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    gap: 109px;
+}
+.texts{
+    
+    cursor: pointer;
+    margin-top: 39px;
+    grid-area: 20px;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+.text1{
+    margin-left: 435px;  
+}
+.text5{
+    margin-right: 0px;
+}
+.rectangle{
+    position: relative;
+    background-color: #E9E6E6;
+    width: 1006px;
+    height: 470px;
+    left: 137px;
+    top: 59px;
+}
+
+.grid1{
+    display: grid;
+    grid-template-rows: ;
+
+}
+.inboxes{
+    border: 1px;
+    
+}
+.inbox1{
+    
+    
 }
